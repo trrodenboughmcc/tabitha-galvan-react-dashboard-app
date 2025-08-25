@@ -15,7 +15,7 @@ export const MetricCard = ({
 }: {
   title: string;
   value: string;
-  icon: Icon;
+  icon: React.ElementType;
   data: number[];
   color: string;
   trend: string;
