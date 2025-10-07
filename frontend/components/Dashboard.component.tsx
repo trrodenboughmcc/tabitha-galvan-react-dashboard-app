@@ -1,7 +1,7 @@
 'use client';
 
-import "react-grid-layout/css/styles.css";
-import "react-resizable/css/styles.css";
+import "../styles/react-grid-layout.css";
+import "../styles/react-resizable.css";
 import { Responsive, WidthProvider } from "react-grid-layout";
 import { AppBar, Toolbar, IconButton, Badge, Typography, Box, Container, alpha } from "@mui/material";
 import { Dashboard as DashboardIcon, Notifications, Settings, People, TrendingUp, ShoppingCart, Analytics, Computer, Phone, Tablet } from "@mui/icons-material";
